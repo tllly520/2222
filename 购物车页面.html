@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./购物车页面.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="top-left">
+            <input type="checkbox" name="checkWhole" id="checkWhole">
+            <span><b>全选</b></span>
+            <span><b>商品信息</b></span>
+        </div>
+        <div class="top-right">
+            <span><b>单价</b></span>
+            <span><b>数量</b></span>
+            <span><b>金额</b></span>
+            <span><b>操作</b></span>
+        </div>
+    </div>
+    <div class="content">
+
+        <div class="content-list">
+            <div class="content-left">
+                <input type="checkbox" name="checkItems" class="checkItems">
+                <img src="https://img.alicdn.com/bao/uploaded/i1/725677994/O1CN01Evw0Z928vIjdnDOOo_!!725677994.jpg_160x160q90.jpg"
+                    alt="">
+                <span class="content-left-ifm">大力水手同款威化饼...</span>
+            </div>
+            <div class="content-right">
+                <span><b>￥<label class="content-price">10.50</label></b></span>
+                <span>
+                    <button class="content-jian" disabled> </button>
+                    <input type="text" class="content-num" value="1">
+                    <button class="content-jia">+</button>
+                </span>
+                <span class="content-rmb">￥<label class="content-jine">10.50</label></span>
+                <span><a class="content-delete">删除</a></span>
+            </div>
+            <!-- <hr> -->
+        </div>
+
+
+        <div class="content-list">
+            <div class="content-left">
+                <input type="checkbox" name="checkItems" class="checkItems">
+                <img src="https://img.alicdn.com/bao/uploaded/i3/725677994/O1CN01LoqRLK28vIlvbW2mX_!!725677994.jpg_160x160q90.jpg"
+                    alt="">
+                <span class="content-left-ifm">令宅博士不愿意出门的秘密，宅家零食——宅心巧克力棒...</span>
+            </div>
+            <div class="content-right">
+                <span><b>￥<label class="content-price">10.13</label></b></span>
+                <span>
+                    <button class="content-jian" disabled> </button>
+                    <input type="text" class="content-num" value="1">
+                    <button class="content-jia">+</button>
+                </span>
+                <span class="content-rmb">￥<label class="content-jine">10.13</label></span>
+                <span><a class="content-delete">删除</a></span>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="sum">
+        <div class="sum-box">
+            <span>已选商品 <b class="sum-num">0</b> 件</span>
+            <span>合计（不含运费）：<b class="sum-money">0.00</b></span>
+            <button class="sum-btn" disabled>结算</button>
+        </div>
+    </div>
+    <script src="./购物车页面.js"></script>
+</body>
+
+</html>
